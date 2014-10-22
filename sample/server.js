@@ -4,6 +4,7 @@ var CoreServer = new Server({coreKeysDir: process.cwd()});
 
 CoreServer.on('device', function(device) {
   console.log('Device online in user space');
+  console.log(device);
   device.onApiMessage('matt', { cmd: 'Ping' });
   device.on('matt', function(sender, args) {
     console.log(args);
