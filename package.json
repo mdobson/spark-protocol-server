@@ -1,0 +1,18 @@
+{
+  "name": "spark-protocol-server",
+  "version": "0.1.0",
+  "description": "A simple wrapper around the spark protocol encrypted coap server to allow for evented access to spark cores.",
+  "main": "index.js",
+  "dependencies": {
+    "spark-protocol": "~0.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spark"
+  ],
+  "author": "Matthew Dobson <@mdobs>",
+  "license": "MIT"
+}
